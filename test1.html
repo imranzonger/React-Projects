@@ -4,10 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Testing testing testing</title>
+    <style>
+        h1 {
+            background-color: gray;
+            font-style: italic;
+        }
+
+        .exampleclass{
+            color:blue;
+        }
+
+        .redColor{
+            color: red;
+        }
+
+        button:hover {
+            background-color: green; /* Background color on hover */
+        }
+
+       
+
+        .activePartic::before {
+            content: "";
+            display: inline-block;
+            width: 10px; /* Width of the circle */
+            height: 10px; /* Height of the circle */
+            background-color: green; /* Circle color */
+            border-radius: 50%; /* Makes it a circle */
+            margin-right: 8px; /* Space between the circle and the text */
+            vertical-align: middle; /* Aligns the circle with the text */
+            }
+
+
+
+    </style>
 </head>
 <body>
-    <p>Hello world</p>
+    <p class="exampleclass">Hello world</p>
+    <p class="exampleclass">Hello world</p>
+    
     <h1>First Heading</h1>
-    <h6>Test Heading</h6>
+    <h6 class="redColor">Test Heading</h6>
+    <p>2<sup>2</sup></p>
+
+    <button>Click Me</button>
+
+    <p>1 child</p>
+    <p>2 child</p>
+    <p>3 child</p>
+    <p>4 child</p>
+    <div>
+        <p>5 child</p>
+        <p>6 child</p>
+        <p>7 child</p>
+        <p>8 child</p>
+    </div>
+
+    <p class="activePartic">Active Participant</p>
+
+    <input type="email">
 </body>
 </html>
